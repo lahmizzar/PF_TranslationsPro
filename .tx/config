@@ -3,227 +3,110 @@ host = https://www.transifex.com
 lang_map = en_GB: en-GB, cs_CZ: cs-CZ, nl_NL: nl-NL, fr_FR: fr-FR, de_DE: de-DE, el_GR: el-GR, ja_JP: ja-JP, pt_BR: pt-BR, pt_PT: pt-PT, tr_TR: tr-TR, da_DK: da-DK, hu_HU: hu-HU, th_TH: th-TH, ru_RU: ru-RU, sv_SE: sv-SE, es_ES: es-ES, ca_ES: ca-ES, it_IT: it-IT, nb_NO: nb-NO, sk_SK: sk-SK, uk_UA: uk-UA, zh_TW: zh-TW, fa_IR: fa-IR, ru@petr1708: ru-PO, ar_AA: ar-AA, fi: fi-FI, sr_RS: sr-RS, es_MX: es-MX, bg_BG: bg-BG, nl_BE: nl-BE, ro_RO: ro-RO, pl_PL: pl-PL
 type = INI
 
-[projectfork-languages.admin-com_pfcomments]
-file_filter = languages/<lang>/admin/<lang>.com_pfcomments.ini
-source_file = ../Projectfork/source/components/com_pfcomments/admin/language/en-GB/en-GB.com_pfcomments.ini
+[projectfork.admin-com_pfdesigns]
+file_filter = languages/<lang>/admin/<lang>.com_pfdesigns.ini
+source_file = source/components/com_pfdesigns/admin/language/en-GB/en-GB.com_pfdesigns.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfcommentssys]
-file_filter = languages/<lang>/admin/<lang>.com_pfcomments.sys.ini
-source_file = ../Projectfork/source/components/com_pfcomments/admin/language/en-GB/en-GB.com_pfcomments.sys.ini
+[projectfork.admin-com_pfdesignssys]
+file_filter = languages/<lang>/admin/<lang>.com_pfdesigns.sys.ini
+source_file = source/components/com_pfdesigns/admin/language/en-GB/en-GB.com_pfdesigns.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfforum]
-file_filter = languages/<lang>/admin/<lang>.com_pfforum.ini
-source_file = ../Projectfork/source/components/com_pfforum/admin/language/en-GB/en-GB.com_pfforum.ini
+
+[projectfork.admin-plg_content_pfdesigns]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfdesigns.ini
+source_file = ../Projectfork/source/components/com_pfdesigns/plugins/plg_content_pfdesigns/language/en-GB/en-GB.plg_content_pfdesigns.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfforumsys]
-file_filter = languages/<lang>/admin/<lang>.com_pfforum.sys.ini
-source_file = ../Projectfork/source/components/com_pfforum/admin/language/en-GB/en-GB.com_pfforum.sys.ini
+[projectfork.admin-plg_content_pfdesignssys]
+file_filter = languages/<lang>/admin/<lang>.plg_content_pfdesigns.sys.ini
+source_file = source/components/com_pfdesigns/plugins/plg_content_pfdesigns/language/en-GB/en-GB.plg_content_pfdesigns.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfmilestones]
-file_filter = languages/<lang>/admin/<lang>.com_pfmilestones.ini
-source_file = ../Projectfork/source/components/com_pfmilestones/admin/language/en-GB/en-GB.com_pfmilestones.ini
+
+
+
+
+[projectfork.admin-mod_pf_calendar]
+file_filter = languages/<lang>/admin/<lang>.mod_pf_calendar.ini
+source_file = source/modules/mod_pf_calendar/language/en-GB/en-GB.mod_pf_calendar.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfmilestonessys]
-file_filter = languages/<lang>/admin/<lang>.com_pfmilestones.sys.ini
-source_file = ../Projectfork/source/components/com_pfmilestones/admin/language/en-GB/en-GB.com_pfmilestones.sys.ini
+[projectfork.admin-mod_pf_calendarsys]
+file_filter = languages/<lang>/admin/<lang>.mod_pf_calendar.sys.ini
+source_file = source/modules/mod_pf_calendar/language/en-GB/en-GB.mod_pf_calendar.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfprojects]
-file_filter = languages/<lang>/admin/<lang>.com_pfprojects.ini
-source_file = ../Projectfork/source/components/com_pfprojects/admin/language/en-GB/en-GB.com_pfprojects.ini
+
+[projectfork.admin-mod_pf_gantt]
+file_filter = languages/<lang>/admin/<lang>.mod_pf_gantt.ini
+source_file = source/modules/mod_pf_gantt/language/en-GB/en-GB.mod_pf_gantt.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfprojectssys]
-file_filter = languages/<lang>/admin/<lang>.com_pfprojects.sys.ini
-source_file = ../Projectfork/source/components/com_pfprojects/admin/language/en-GB/en-GB.com_pfprojects.sys.ini
+[projectfork.admin-mod_pf_ganttsys]
+file_filter = languages/<lang>/admin/<lang>.mod_pf_gantt.sys.ini
+source_file = source/modules/mod_pf_gantt/language/en-GB/en-GB.mod_pf_gantt.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfrepo]
-file_filter = languages/<lang>/admin/<lang>.com_pfrepo.ini
-source_file = ../Projectfork/source/components/com_pfrepo/admin/language/en-GB/en-GB.com_pfrepo.ini
+
+[projectfork.site-mod_useractivity_pf_site]
+file_filter = languages/<lang>/site/<lang>.mod_useractivity_pf_site.ini
+source_file = source/modules/mod_useractivity_pf_site/language/en-GB/en-GB.mod_useractivity_pf_site.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfreposys]
-file_filter = languages/<lang>/admin/<lang>.com_pfrepo.sys.ini
-source_file = ../Projectfork/source/components/com_pfrepo/admin/language/en-GB/en-GB.com_pfrepo.sys.ini
+[projectfork.site-mod_useractivity_pf_sitesys]
+file_filter = languages/<lang>/site/<lang>.mod_useractivity_pf_site.sys.ini
+source_file = source/modules/mod_useractivity_pf_site/language/en-GB/en-GB.mod_useractivity_pf_site.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pftasks]
-file_filter = languages/<lang>/admin/<lang>.com_pftasks.ini
-source_file = ../Projectfork/source/components/com_pftasks/admin/language/en-GB/en-GB.com_pftasks.ini
+
+
+
+
+
+[projectfork.admin-plg_community_myprojects]
+file_filter = languages/<lang>/admin/<lang>.plg_community_myprojects.ini
+source_file = source/plugins/plg_community_myprojects/language/en-GB/en-GB.plg_community_myprojects.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pftaskssys]
-file_filter = languages/<lang>/admin/<lang>.com_pftasks.sys.ini
-source_file = ../Projectfork/source/components/com_pftasks/admin/language/en-GB/en-GB.com_pftasks.sys.ini
+[projectfork.admin-plg_community_myprojectssys]
+file_filter = languages/<lang>/admin/<lang>.plg_community_myprojects.sys.ini
+source_file = source/plugins/plg_community_myprojects/language/en-GB/en-GB.plg_community_myprojects.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pftime]
-file_filter = languages/<lang>/admin/<lang>.com_pftime.ini
-source_file = ../Projectfork/source/components/com_pftime/admin/language/en-GB/en-GB.com_pftime.ini
+
+[projectfork.admin-plg_useractivity_projectfork]
+file_filter = languages/<lang>/admin/<lang>.plg_useractivity_projectfork.ini
+source_file = source/plugins/plg_useractivity_projectfork/language/en-GB/en-GB.plg_useractivity_projectfork.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pftimesys]
-file_filter = languages/<lang>/admin/<lang>.com_pftime.sys.ini
-source_file = ../Projectfork/source/components/com_pftime/admin/language/en-GB/en-GB.com_pftime.sys.ini
+[projectfork.admin-plg_useractivity_projectforksys]
+file_filter = languages/<lang>/admin/<lang>.plg_useractivity_projectfork.sys.ini
+source_file = source/plugins/plg_useractivity_projectfork/language/en-GB/en-GB.plg_useractivity_projectfork.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfusers]
-file_filter = languages/<lang>/admin/<lang>.com_pfusers.ini
-source_file = ../Projectfork/source/components/com_pfusers/admin/language/en-GB/en-GB.com_pfusers.ini
+
+
+
+
+[projectfork.site-tpl_apptheme]
+file_filter = languages/<lang>/site/<lang>.tpl_apptheme.ini
+source_file = source/templates/tpl_apptheme/language/en-GB/en-GB.tpl_apptheme.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_pfuserssys]
-file_filter = languages/<lang>/admin/<lang>.com_pfusers.sys.ini
-source_file = ../Projectfork/source/components/com_pfusers/admin/language/en-GB/en-GB.com_pfusers.sys.ini
+[projectfork.site-tpl_appthemesys]
+file_filter = languages/<lang>/site/<lang>.tpl_apptheme.sys.ini
+source_file = source/templates/tpl_apptheme/language/en-GB/en-GB.tpl_apptheme.sys.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_projectfork]
-file_filter = languages/<lang>/admin/<lang>.com_projectfork.ini
-source_file = ../Projectfork/source/components/com_projectfork/admin/language/en-GB/en-GB.com_projectfork.ini
+
+[projectfork.site-tpl_emerald]
+file_filter = languages/<lang>/site/<lang>.tpl_emerald.ini
+source_file = source/templates/tpl_emerald/language/en-GB/en-GB.tpl_emerald.ini
 source_lang = en_GB
 
-[projectfork-languages.admin-com_projectforksys]
-file_filter = languages/<lang>/admin/<lang>.com_projectfork.sys.ini
-source_file = ../Projectfork/source/components/com_projectfork/admin/language/en-GB/en-GB.com_projectfork.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfcomments]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfcomments.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfcomments/language/en-GB/en-GB.plg_content_pfcomments.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfcommentssys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfcomments.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfcomments/language/en-GB/en-GB.plg_content_pfcomments.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfforum]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfforum.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfforum/language/en-GB/en-GB.plg_content_pfforum.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfforumsys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfforum.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfforum/language/en-GB/en-GB.plg_content_pfforum.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfmilestones]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfmilestones.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfmilestones/language/en-GB/en-GB.plg_content_pfmilestones.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfmilestonessys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfmilestones.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfmilestones/language/en-GB/en-GB.plg_content_pfmilestones.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfnotifications]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfnotifications.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfnotifications/language/en-GB/en-GB.plg_content_pfnotifications.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfnotificationssys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfnotifications.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfnotifications/language/en-GB/en-GB.plg_content_pfnotifications.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfprojects]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfprojects.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfprojects/language/en-GB/en-GB.plg_content_pfprojects.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfprojectssys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfprojects.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfprojects/language/en-GB/en-GB.plg_content_pfprojects.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfrepo]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfrepo.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfrepo/language/en-GB/en-GB.plg_content_pfrepo.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pfreposys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pfrepo.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pfrepo/language/en-GB/en-GB.plg_content_pfrepo.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pftasks]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pftasks.ini
-source_file = ../Projectfork/source/plugins/plg_content_pftasks/language/en-GB/en-GB.plg_content_pftasks.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pftaskssys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pftasks.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pftasks/language/en-GB/en-GB.plg_content_pftasks.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pftime]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pftime.ini
-source_file = ../Projectfork/source/plugins/plg_content_pftime/language/en-GB/en-GB.plg_content_pftime.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_content_pftimesys]
-file_filter = languages/<lang>/admin/<lang>.plg_content_pftime.sys.ini
-source_file = ../Projectfork/source/plugins/plg_content_pftime/language/en-GB/en-GB.plg_content_pftime.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_system_pfdemo]
-file_filter = languages/<lang>/admin/<lang>.plg_system_pfdemo.ini
-source_file = ../Projectfork/source/plugins/plg_system_pfdemo/language/en-GB/en-GB.plg_system_pfdemo.ini
-source_lang = en_GB
-
-[projectfork-languages.admin-plg_system_pfdemosys]
-file_filter = languages/<lang>/admin/<lang>.plg_system_pfdemo.sys.ini
-source_file = ../Projectfork/source/plugins/plg_system_pfdemo/language/en-GB/en-GB.plg_system_pfdemo.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.site-com_projectfork]
-file_filter = languages/<lang>/site/<lang>.com_projectfork.ini
-source_file = ../Projectfork/source/components/com_projectfork/site/language/en-GB/en-GB.com_projectfork.ini
-source_lang = en_GB
-
-[projectfork-languages.site-tpl_goggles]
-file_filter = languages/<lang>/site/<lang>.tpl_goggles.ini
-source_file = ../Projectfork/source/templates/goggles/language/en-GB/en-GB.tpl_goggles.ini
-source_lang = en_GB
-
-[projectfork-languages.site-tpl_gogglessys]
-file_filter = languages/<lang>/site/<lang>.tpl_goggles.sys.ini
-source_file = ../Projectfork/source/templates/goggles/language/en-GB/en-GB.tpl_goggles.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.site-mod_pf_dash_buttons]
-file_filter = languages/<lang>/site/<lang>.mod_pf_dash_buttons.ini
-source_file = ../Projectfork/source/modules/mod_pf_dash_buttons/language/en-GB/en-GB.mod_pf_dash_buttons.ini
-source_lang = en_GB
-
-[projectfork-languages.site-mod_pf_dash_buttonssys]
-file_filter = languages/<lang>/site/<lang>.mod_pf_dash_buttons.sys.ini
-source_file = ../Projectfork/source/modules/mod_pf_dash_buttons/language/en-GB/en-GB.mod_pf_dash_buttons.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.site-mod_pf_tasks]
-file_filter = languages/<lang>/site/<lang>.mod_pf_tasks.ini
-source_file = ../Projectfork/source/modules/mod_pf_tasks/language/en-GB/en-GB.mod_pf_tasks.ini
-source_lang = en_GB
-
-[projectfork-languages.site-mod_pf_taskssys]
-file_filter = languages/<lang>/site/<lang>.mod_pf_tasks.sys.ini
-source_file = ../Projectfork/source/modules/mod_pf_tasks/language/en-GB/en-GB.mod_pf_tasks.sys.ini
-source_lang = en_GB
-
-[projectfork-languages.site-mod_pf_time]
-file_filter = languages/<lang>/site/<lang>.mod_pf_time.ini
-source_file = ../Projectfork/source/modules/mod_pf_time/language/en-GB/en-GB.mod_pf_time.ini
-source_lang = en_GB
-
-[projectfork-languages.site-mod_pf_timesys]
-file_filter = languages/<lang>/site/<lang>.mod_pf_time.sys.ini
-source_file = ../Projectfork/source/modules/mod_pf_time/language/en-GB/en-GB.mod_pf_time.sys.ini
+[projectfork.site-tpl_emeraldsys]
+file_filter = languages/<lang>/site/<lang>.tpl_emerald.sys.ini
+source_file = source/templates/tpl_emerald/language/en-GB/en-GB.tpl_emerald.sys.ini
 source_lang = en_GB
