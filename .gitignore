@@ -1,0 +1,22 @@
+#############
+## Ignore everything
+#############
+*.php
+*.xml
+*.html
+*.txt
+*.jpg
+*.png
+*.gif
+*.js
+*.cur
+*.md
+*.sql
+
+!README.md
+!CONTRIBUTING.md
+!.gitignore
+!builder/**
+
+# Expect Languages Files
+!*.ini
