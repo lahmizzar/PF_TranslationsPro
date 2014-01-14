@@ -16,7 +16,7 @@ source_lang = en_GB
 
 [projectfork.admin-plg_content_pfdesigns]
 file_filter = languages/<lang>/admin/<lang>.plg_content_pfdesigns.ini
-source_file = ../Projectfork/source/components/com_pfdesigns/plugins/plg_content_pfdesigns/language/en-GB/en-GB.plg_content_pfdesigns.ini
+source_file = source/components/com_pfdesigns/plugins/plg_content_pfdesigns/language/en-GB/en-GB.plg_content_pfdesigns.ini
 source_lang = en_GB
 
 [projectfork.admin-plg_content_pfdesignssys]
