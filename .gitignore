@@ -1,18 +1,51 @@
 #############
 ## Ignore everything
 #############
+# *
+
+# Text, PHP, Html
+##########
 *.php
 *.xml
 *.html
 *.txt
+
+# Pictures
+##########
 *.jpg
 *.png
 *.gif
+*.ico
+
+# Javascript
+##########
 *.js
 *.cur
+
+# Markdown
+##########
 *.md
+
+
+# Database
+##########
 *.sql
 
+# Styles
+##########
+*.less
+*.css
+
+# Fonts
+##########
+*.ttf
+*.svg
+*.woff
+*.eot
+
+
+# Negate repo used files/folders
+##########
 !README.md
 !CONTRIBUTING.md
 !.gitignore
